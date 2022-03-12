@@ -16,7 +16,8 @@ namespace Prac1
             {"login", "password" },
             {"mylogin", "123" },
             {"логин", "пароль" },
-            {"ilya", "qwerty" }
+            {"ilya", "qwerty" },
+            {"123", null }
         };
 
 
