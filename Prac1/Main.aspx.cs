@@ -16,8 +16,7 @@ namespace Prac1
             {"login", "password" },
             {"mylogin", "123" },
             {"логин", "пароль" },
-            {"ilya", "qwerty" },
-            {"123", null }
+            {"ilya", "qwerty" }
         };
 
 
@@ -49,16 +48,6 @@ namespace Prac1
             }
         }
 
-        protected void password_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             bool result = check_user();
@@ -72,5 +61,17 @@ namespace Prac1
                 Message.Text = "Неверные данные для входа в аккаунт";
             }
         }
+
+        protected void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

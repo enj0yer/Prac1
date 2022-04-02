@@ -14,17 +14,17 @@
     <div>
     <asp:TextBox ID="login" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
         
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="login" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="login" ErrorMessage="Введите логин"></asp:RequiredFieldValidator>
         
     </div>
     <div>
         Пароль</div>
     <div>
         <asp:TextBox ID="password" runat="server" OnTextChanged="password_TextChanged"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="password" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="password" ErrorMessage="Введите пароль"></asp:RequiredFieldValidator>
     </div>
         <asp:Label ID="Message" runat="server"></asp:Label>
-    <br>
+    <br/>
     <asp:Button ID="Button1" runat="server" Text="Войти" OnClick="Button1_Click" />
     &nbsp;&nbsp;&nbsp;&nbsp;
     </form>
